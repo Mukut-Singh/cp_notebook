@@ -1,0 +1,18 @@
+# Python - ignore compiled files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C++ - ignore executables
+*.exe
+*.out
+*.o
+*.obj
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Virtual Environments (if you use them)
+venv/
+.env
