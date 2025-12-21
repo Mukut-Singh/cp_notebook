@@ -1,3 +1,5 @@
+#using bit masking and it has n*2^n time complexity
+
 def get_subsets(nums):
     n = len(nums)
     # Total subsets = 2^n
@@ -19,3 +21,7 @@ def get_subsets(nums):
 # Example Usage:
 nums = [1, 2, 3]
 print(get_subsets(nums))
+
+
+
+
