@@ -27,3 +27,6 @@ print(*results, sep='\n')
 Equivalent to: print('10', '5', '4', sep='\n')
 you used sys.stdout.write. This function is "dumb"—it only accepts one single string. It doesn't know how to unpack *or handle lists. That is why you must use .join() to turn your list into that single string first.
 for x in results: print(x)  NEVER USE THIS
+
+
+map(str, results) applies the str function to every item in the list instantly. You can now just append integers (results.append(count)) and the snippet handles the rest!
