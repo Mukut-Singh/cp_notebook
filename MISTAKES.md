@@ -8,7 +8,8 @@
 | **String Build** | `s += "new"` | `list.append("new")` then `"".join(list)` | **Avoids $O(N^2)$ copying.** Strings are immutable; every `+` creates a brand-new string in memory. |
 
 ---
-##some more
+##some more  
+
 **1.if all machine are A type means x-1 will take no. of a time ,and if a = big big no. time exceeds so answer should be a directly**  
 
 **2.try not put any variable outside t cases loop**  
