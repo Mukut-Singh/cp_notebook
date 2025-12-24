@@ -16,10 +16,15 @@
 ---
 **3.odd even me use modulus % symbol**  
 ---
-**4.# Function-based (Procedural)
-bubble_sort(arr) 
+**4. Function-based  
 
-# Class-based (Object-Oriented)
-sorter = BubbleSort()
-sorter.bubble_sort(arr)**
+bubble_sort(arr)   
+
+
+class based  
+
+sorter = BubbleSort()  
+
+sorter.bubble_sort(arr)**  
+
 
