@@ -11,8 +11,15 @@
 ## Some more  
 
 **1.if all machine are A type means x-1 will take no. of a time ,and if a = big big no. time exceeds so answer should be a directly**  
-
+---
 **2.try not put any variable outside t cases loop**  
-
+---
 **3.odd even me use modulus % symbol**  
+---
+**4.# Function-based (Procedural)
+bubble_sort(arr) 
+
+# Class-based (Object-Oriented)
+sorter = BubbleSort()
+sorter.bubble_sort(arr)**
 
