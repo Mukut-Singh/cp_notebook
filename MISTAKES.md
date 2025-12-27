@@ -27,4 +27,13 @@ sorter = BubbleSort()
 
 sorter.bubble_sort(arr)**  
 
+### Sorting Memory & Side Effects
+
+| Command | Space Usage | Effect on Original List |
+| :--- | :--- | :--- |
+| `a.sort(reverse=True)` | **Minimal** (In-place) | **Changes** the original list. |
+| `b = sorted(a, reverse=True)` | **High** (Creates a copy) | **Leaves** original list `a` exactly as it was. |
+
+> **Note:** Use `.sort()` when memory is limited and you don't need the original order. Use `sorted()` when you need to preserve the original data for later use.
+
 
