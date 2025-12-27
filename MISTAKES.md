@@ -26,6 +26,8 @@ class based
 sorter = BubbleSort()  
 
 sorter.bubble_sort(arr)**  
+---
+**5.dont use pop command it O(n2) ,we have other methods of moving the pointer instead of deleting it**
 
 ### Sorting Memory & Side Effects
 
